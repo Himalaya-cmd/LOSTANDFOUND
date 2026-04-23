@@ -3,7 +3,7 @@ import axios from "axios";
 import Navbar from "../components/Navbar";
 import { motion } from "framer-motion";
 
-const API = "http://localhost:5000";
+const API = "https://https://lostfound-backend-m6qq.onrender.com";
 
 function Dashboard() {
   const [items, setItems] = useState([]);
