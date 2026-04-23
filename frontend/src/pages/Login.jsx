@@ -2,7 +2,7 @@ import { useState } from "react";
 import axios from "axios";
 import { useNavigate, Link } from "react-router-dom";
 
-const API = "https://https://lostfound-backend-m6qq.onrender.com";
+const API = "https://lostfound-backend-m6qq.onrender.com";
 
 function Login() {
   const [data, setData] = useState({ email:"", password:"" });
